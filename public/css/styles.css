@@ -25,10 +25,27 @@ header {
 
 main {
     margin-top: 5rem;
-    display: grid;
+    display: flex;
     flex-direction: column;
     grid-template-columns: repeat(4, 1fr );
     text-align: center;
+}
+
+#experience {
+    height: 30rem;
+    background-color: #3076c1;
+}
+#skills {
+    height: 30rem;
+    background-color: #2572c5;
+}
+#portifolio {
+    height: 30rem;
+    background-color: #1d6dc4;
+}
+#contact {
+    height: 30rem;
+    background-color: #0565cb;
 }
 
 a {
